@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Eladio Carrión</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/contacto.css">
 </head>
 <body>
 
@@ -24,6 +23,7 @@
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="catalogo.html">Catálogo</a></li>
                     <li><a href="contacto.html" class="active">Contacto</a></li>
+                    <li><a href="cart.html" class="cart-count-link">Carrito (0)</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,10 +33,10 @@
     <main class="container">
         <div class="contacto-container">
             <h2>Contacto / Atención al Cliente</h2>
-            
+
             <div class="info-contacto">
                 <p><strong>Teléfono:</strong> +34 912 345 678</p>
-                <p><strong>Correo electrónico:</strong> soporte@eladiocarrionshop.com</p>
+                <p><strong>Correo electrónico:</strong> soporte@eladiocarrionvinyl.com</p>
             </div>
 
             <form action="#" method="post">
@@ -45,8 +45,8 @@
                     <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
                 </div>
                 <div class="form-group">
-                    <label for="consulta">Describe tu duda o problema:</label>
-                    <textarea id="consulta" name="consulta" rows="5" required placeholder="Escribe aquí lo que sucede..."></textarea>
+                    <label for="consulta">Describe tu duda sobre envíos o ediciones en vinilo:</label>
+                    <textarea id="consulta" name="consulta" rows="5" required placeholder="Escribe aquí tu consulta..."></textarea>
                 </div>
                 <button type="submit" class="btn-enviar">Enviar Consulta</button>
             </form>
@@ -57,15 +57,17 @@
     <footer class="footer-principal">
         <div class="footer-content container">
             <nav class="footer-links">
-                <a href="index.html">Inicio</a>
+                <a href="../index.html">Inicio</a>
                 <a href="catalogo.html">Catálogo</a>
                 <a href="contacto.html">Contacto</a>
+                <a href="cart.html">Carrito</a>
                 <a href="#">Términos y Condiciones</a>
                 <a href="#">Política de Privacidad</a>
             </nav>
-            <p class="copyright">&copy; 2026 Eladio Carrión Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
+            <p class="copyright">&copy; 2026 Eladio Carrión Vinyl Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <script src="../js/app.js" defer></script>
 </body>
 </html>

@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo Completo | Eladio Carrión</title>
+    <title>Catálogo de Vinilos | Eladio Carrión</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/catalogo.css">
 </head>
 <body>
 
@@ -24,6 +23,7 @@
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="catalogo.html" class="active">Catálogo</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="cart.html" class="cart-count-link">Carrito (0)</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,38 +31,48 @@
 
     <!-- MAIN -->
     <main class="container">
-        <h2 class="catalogo-titulo">Catálogo Oficial de Productos</h2>
+        <h2 class="catalogo-titulo">Discografía Completa en Vinilo</h2>
 
         <div class="grid-productos">
             <article class="producto-card">
-                <img src="../images/cat1-large.jpg" srcset="images/cat1-small.jpg 300w, images/cat1-medium.jpg 600w, images/cat1-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="Sol María T-Shirt White">
-                <h3>Sol María T-Shirt (White)</h3>
-                <p class="precio">35,00 €</p>
+                <img src="../img/DON KBRN.jpg" alt="DON KBRN Vinilo">
+                <h3>DON KBRN (Edición Coleccionista)</h3>
+                <p class="precio">48,00 €</p>
             </article>
             <article class="producto-card">
-                <img src="../images/cat2-large.jpg" srcset="images/cat2-small.jpg 300w, images/cat2-medium.jpg 600w, images/cat2-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="Sauce Boyz Hoodie Black">
-                <h3>Sauce Boyz Hoodie (Black)</h3>
-                <p class="precio">65,00 €</p>
+                <img src="../img/Sol maria.jpg" alt="Sol María Vinilo">
+                <h3>Sol María (Doble LP)</h3>
+                <p class="precio">42,00 €</p>
             </article>
             <article class="producto-card">
-                <img src="../images/cat3-large.jpg" srcset="images/cat3-small.jpg 300w, images/cat3-medium.jpg 600w, images/cat3-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="393 Cap Black">
-                <h3>Gorras 393 Official Cap</h3>
-                <p class="precio">30,00 €</p>
+                <img src="../img/3MEN2 KBRN.jpg" alt="3MEN2 KBRN Vinilo">
+                <h3>3MEN2 KBRN (Vinilo Negro 180g)</h3>
+                <p class="precio">45,00 €</p>
             </article>
             <article class="producto-card">
-                <img src="../images/cat4-large.jpg" srcset="images/cat4-small.jpg 300w, images/cat4-medium.jpg 600w, images/cat4-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="Sol María Vinilo">
-                <h3>Vinilo 12'' Sol María</h3>
+                <img src="../img/SEN2 KBRN VOL.2.jpg" alt="SEN2 KBRN Vol. 2">
+                <h3>SEN2 KBRN VOL. 2</h3>
+                <p class="precio">39,00 €</p>
+            </article>
+            <article class="producto-card">
+                <img src="../img/Sauce Boyz 2.jpg" alt="Sauce Boyz 2">
+                <h3>Sauce Boyz 2</h3>
                 <p class="precio">40,00 €</p>
             </article>
             <article class="producto-card">
-                <img src="../images/cat5-large.jpg" srcset="images/cat5-small.jpg 300w, images/cat5-medium.jpg 600w, images/cat5-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="Sudadera M3">
-                <h3>Sudadera M3 Zip Hoodie</h3>
-                <p class="precio">70,00 €</p>
+                <img src="../img/SEN2 KBRN VOL.1.jpeg" alt="SEN2 KBRN Vol. 1">
+                <h3>SEN2 KBRN VOL. 1</h3>
+                <p class="precio">36,00 €</p>
             </article>
             <article class="producto-card">
-                <img src="../images/cat6-large.jpg" srcset="images/cat6-small.jpg 300w, images/cat6-medium.jpg 600w, images/cat6-large.jpg 900w" sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" alt="Camiseta Sen2 KBRN">
-                <h3>Camiseta Sen2 KBRN Vol. 2</h3>
-                <p class="precio">35,00 €</p>
+                <img src="../img/monarca.jpg" alt="Monarca">
+                <h3>Monarca (Vinilo Dorado)</h3>
+                <p class="precio">40,00 €</p>
+            </article>
+            <article class="producto-card">
+                <img src="../img/Sauce Boyz.jpg" alt="Sauce Boyz">
+                <h3>Sauce Boyz (Debut LP)</h3>
+                <p class="precio">38,00 €</p>
             </article>
         </div>
     </main>
@@ -74,12 +84,14 @@
                 <a href="../index.html">Inicio</a>
                 <a href="catalogo.html">Catálogo</a>
                 <a href="contacto.html">Contacto</a>
+                <a href="cart.html">Carrito</a>
                 <a href="#">Términos y Condiciones</a>
                 <a href="#">Política de Privacidad</a>
             </nav>
-            <p class="copyright">&copy; 2026 Eladio Carrión Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
+            <p class="copyright">&copy; 2026 Eladio Carrión Vinyl Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <script src="../js/app.js" defer></script>
 </body>
 </html>

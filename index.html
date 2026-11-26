@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eladio Carrión | Tienda Oficial</title>
+    <title>Eladio Carrión | Tienda Oficial de Vinilos y Música</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,6 +23,7 @@
                     <li><a href="index.html" class="active">Inicio</a></li>
                     <li><a href="html/catalogo.html">Catálogo</a></li>
                     <li><a href="html/contacto.html">Contacto</a></li>
+                    <li><a href="html/cart.html" class="cart-count-link">Carrito (0)</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,12 +33,11 @@
     <main>
         <!-- Banner con Foto de la Tienda -->
         <section class="banner-tienda">
-            <img src="images/banner-large.jpg" 
-                 srcset="images/banner-small.jpg 480w, images/banner-medium.jpg 800w, images/banner-large.jpg 1200w" 
-                 sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px" 
-                 alt="Banner Oficial Tienda Eladio Carrión">
+            <img src="img/sauce.jpg" alt="Discografía Oficial y Vinilos Eladio Carrión">
             <div class="banner-text">
-                <h2>Sol María & Sauce Boyz Collection</h2>
+                <span class="badge-era">DISCOGRAFÍA OFICIAL</span>
+                <h2>SAUCE BOYZ &amp; SOL MARÍA VINYL STORE</h2>
+                <p>Ediciones limitadas en vinilo, formatos físicos y lanzamientos de colección.</p>
             </div>
         </section>
 
@@ -46,114 +46,78 @@
             <h2>Los Más Vendidos</h2>
             <div class="grid-productos">
                 <article class="producto-card">
-                    <img src="images/producto1-large.jpg" 
-                         srcset="images/producto1-small.jpg 300w, images/producto1-medium.jpg 600w, images/producto1-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Camiseta Sauce Boyz">
-                    <h3>Camiseta Sauce Boyz</h3>
-                    <p class="precio">35,00 €</p>
+                    <img src="img/Sol maria.jpg" alt="Vinilo Sol María">
+                    <h3>Vinilo Doble LP - Sol María</h3>
+                    <p class="precio">42,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/producto2-large.jpg" 
-                         srcset="images/producto2-small.jpg 300w, images/producto2-medium.jpg 600w, images/producto2-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Sudadera Sol María">
-                    <h3>Sudadera Sol María Oversized</h3>
-                    <p class="precio">65,00 €</p>
+                    <img src="img/3MEN2 KBRN.jpg" alt="Vinilo 3MEN2 KBRN">
+                    <h3>Vinilo Edición Deluxe - 3MEN2 KBRN</h3>
+                    <p class="precio">45,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/producto3-large.jpg" 
-                         srcset="images/producto3-small.jpg 300w, images/producto3-medium.jpg 600w, images/producto3-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Gorra 393">
-                    <h3>Gorra Béisbol 393</h3>
-                    <p class="precio">30,00 €</p>
+                    <img src="img/DON KBRN.jpg" alt="Vinilo DON KBRN">
+                    <h3>Vinilo Coleccionista - DON KBRN</h3>
+                    <p class="precio">48,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/producto4-large.jpg" 
-                         srcset="images/producto4-small.jpg 300w, images/producto4-medium.jpg 600w, images/producto4-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Vinilo Sol María">
-                    <h3>Vinilo Edición Especial Sol María</h3>
+                    <img src="img/Sauce Boyz 2.jpg" alt="Vinilo Sauce Boyz 2">
+                    <h3>Vinilo 12'' - Sauce Boyz 2</h3>
                     <p class="precio">40,00 €</p>
                 </article>
             </div>
         </section>
 
-        <!-- Sección 2: Categoría Ropa -->
+        <!-- Sección 2: Saga Sauce Boyz & Sen2 KBRN -->
         <section class="productos-seccion container">
-            <h2>Colección Ropa & Merchandising</h2>
+            <h2>Saga Sauce Boyz &amp; Sen2 KBRN</h2>
             <div class="grid-productos">
                 <article class="producto-card">
-                    <img src="images/ropa1-large.jpg" 
-                         srcset="images/ropa1-small.jpg 300w, images/ropa1-medium.jpg 600w, images/ropa1-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Hoodie Sen2 KBRN">
-                    <h3>Hoodie Black Sen2 KBRN</h3>
-                    <p class="precio">60,00 €</p>
-                </article>
-                <article class="producto-card">
-                    <img src="images/ropa2-large.jpg" 
-                         srcset="images/ropa2-small.jpg 300w, images/ropa2-medium.jpg 600w, images/ropa2-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Pantalón Chándal Sauce">
-                    <h3>Pantalón Jogger Sauce</h3>
-                    <p class="precio">55,00 €</p>
-                </article>
-                <article class="producto-card">
-                    <img src="images/ropa3-large.jpg" 
-                         srcset="images/ropa3-small.jpg 300w, images/ropa3-medium.jpg 600w, images/ropa3-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Camiseta World Tour">
-                    <h3>Camiseta Tour World 2024</h3>
+                    <img src="img/Sauce Boyz.jpg" alt="Vinilo Sauce Boyz">
+                    <h3>Vinilo Original - Sauce Boyz</h3>
                     <p class="precio">38,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/ropa4-large.jpg" 
-                         srcset="images/ropa4-small.jpg 300w, images/ropa4-medium.jpg 600w, images/ropa4-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Calcetines Pack 3">
-                    <h3>Pack 3 Calcetines Sauce Boyz</h3>
-                    <p class="precio">18,00 €</p>
+                    <img src="img/Sauce boyz care package.jpg" alt="EP Sauce Boyz Care Package">
+                    <h3>EP Vinilo 10'' - Sauce Boyz Care Package</h3>
+                    <p class="precio">28,00 €</p>
+                </article>
+                <article class="producto-card">
+                    <img src="img/SEN2 KBRN VOL.1.jpeg" alt="Vinilo SEN2 KBRN Vol. 1">
+                    <h3>Vinilo Trap Edition - SEN2 KBRN Vol. 1</h3>
+                    <p class="precio">36,00 €</p>
+                </article>
+                <article class="producto-card">
+                    <img src="img/SEN2 KBRN VOL.2.jpg" alt="Vinilo SEN2 KBRN Vol. 2">
+                    <h3>Vinilo Gatefold - SEN2 KBRN Vol. 2</h3>
+                    <p class="precio">39,00 €</p>
                 </article>
             </div>
         </section>
 
-        <!-- Sección 3: Accesorios y Música -->
+        <!-- Sección 3: Clásicos, Singles y Ediciones Especiales -->
         <section class="productos-seccion container">
-            <h2>Accesorios & Música</h2>
+            <h2>Clásicos &amp; Ediciones Especiales</h2>
             <div class="grid-productos">
                 <article class="producto-card">
-                    <img src="images/acc1-large.jpg" 
-                         srcset="images/acc1-small.jpg 300w, images/acc1-medium.jpg 600w, images/acc1-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="CD Sol María">
-                    <h3>CD Formato Físico Sol María</h3>
-                    <p class="precio">18,00 €</p>
+                    <img src="img/monarca.jpg" alt="Vinilo Monarca">
+                    <h3>Vinilo Dorado - Monarca</h3>
+                    <p class="precio">40,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/acc2-large.jpg" 
-                         srcset="images/acc2-small.jpg 300w, images/acc2-medium.jpg 600w, images/acc2-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Piluso/Bucket Hat">
-                    <h3>Gorro Bucket Hat Sauce</h3>
-                    <p class="precio">28,00 €</p>
+                    <img src="img/Porque puedo.jpeg" alt="Maxi Single Porque Puedo">
+                    <h3>Maxi Single 12'' - Porque Puedo</h3>
+                    <p class="precio">25,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/acc3-large.jpg" 
-                         srcset="images/acc3-small.jpg 300w, images/acc3-medium.jpg 600w, images/acc3-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Llavero Metálico">
-                    <h3>Llavero Metálico Logo Sauce</h3>
-                    <p class="precio">12,00 €</p>
+                    <img src="img/Corsa.png" alt="Picture Disc Corsa">
+                    <h3>Vinilo Picture Disc - Corsa</h3>
+                    <p class="precio">29,00 €</p>
                 </article>
                 <article class="producto-card">
-                    <img src="images/acc4-large.jpg" 
-                         srcset="images/acc4-small.jpg 300w, images/acc4-medium.jpg 600w, images/acc4-large.jpg 900w" 
-                         sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 25vw" 
-                         alt="Mechero Clipper Custom">
-                    <h3>Clipper Personalizado Eladio</h3>
-                    <p class="precio">6,00 €</p>
+                    <img src="img/Lista de reproduccion.png" alt="Box Set Antología">
+                    <h3>Box Set Antología + Playlist Exclusiva</h3>
+                    <p class="precio">85,00 €</p>
                 </article>
             </div>
         </section>
@@ -164,14 +128,16 @@
         <div class="footer-content container">
             <nav class="footer-links">
                 <a href="index.html">Inicio</a>
-                <a href="catalogo.html">Catálogo</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="html/catalogo.html">Catálogo</a>
+                <a href="html/contacto.html">Contacto</a>
+                <a href="html/cart.html">Carrito</a>
                 <a href="#">Términos y Condiciones</a>
                 <a href="#">Política de Privacidad</a>
             </nav>
-            <p class="copyright">&copy; 2026 Eladio Carrión Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
+            <p class="copyright">&copy; 2026 Eladio Carrión Vinyl Shop. Creado por Irene Martín Gómez. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <script src="js/app.js" defer></script>
 </body>
 </html>
